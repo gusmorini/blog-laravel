@@ -54,4 +54,8 @@ Route::get('sobre','PagesController@sobre');
 
 Route::get('amigos', 'PagesController@amigos');
 
-Route::get('/', 'PagesController@index');
+Route::get('/', function(){
+	return view('home.templates.home');
+});
+
+//Route::get('/', 'PagesController@index');
