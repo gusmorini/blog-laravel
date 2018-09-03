@@ -1,4 +1,4 @@
-@extends('dashboard.templates.painel')
+@extends('dashboard.painel')
 
 @section('conteudo')
 

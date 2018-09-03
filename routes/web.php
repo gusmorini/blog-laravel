@@ -27,19 +27,27 @@
 //usando o artisan make:controller
 
 Route::get('forms', function(){
-	return view ('dashboard.templates.forms');
+	return view ('dashboard.forms');
 });
 
 Route::get('list', function(){
-	return view ('dashboard.templates.list');
+	return view ('dashboard.list');
 });
 
 Route::get('home',function(){
-	return view ('dashboard.templates.home');
+	return view ('dashboard.home');
 });
 
-Route::get('dashboard', function(){
-	return view ('dashboard.templates.index');
+Route::get('login', function(){
+	return view ('dashboard.login');
+});
+
+Route::get('recuperar-senha', function(){
+	return view ('dashboard.recuperar-senha');
+});
+
+Route::get('resetar-senha', function(){
+	return view ('dashboard.resetar-senha');
 });
 
 Route::get('categoria', function(){

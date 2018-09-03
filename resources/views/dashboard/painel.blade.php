@@ -10,8 +10,8 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 
 		<!--CSS Person-->
-		<link rel="stylesheet" href="css/webdevalfa.css">
-		<link rel="stylesheet" href="css/webdevalfa-reset.css">
+		<link rel="stylesheet" href="css/dash/webdevalfa.css">
+		<link rel="stylesheet" href="css/dash/webdevalfa-reset.css">
 
 		<!--Favicon-->
 		<link rel="icon" type="image/png" href="imgs/favicon.png">
