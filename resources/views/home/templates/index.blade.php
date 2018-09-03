@@ -24,7 +24,7 @@
 	<header class="top">
 		<div class="container">
 			<div class="logo col-md-6">
-				<a href="site">
+				<a href="/">
 					<img src="imgs/logo-webdevalfa.png" alt="WebDevAlfa" class="logo">
 				</a>
 			</div>
@@ -55,7 +55,7 @@
 
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="site">Home</a></li>
+              <li><a href="/">Home</a></li>
 
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias <span class="caret"></span></a>
