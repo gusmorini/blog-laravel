@@ -26,6 +26,18 @@
 
 //usando o artisan make:controller
 
+Route::get('forms', function(){
+	return view ('dashboard.templates.forms');
+});
+
+Route::get('list', function(){
+	return view ('dashboard.templates.list');
+});
+
+Route::get('home',function(){
+	return view ('dashboard.templates.home');
+});
+
 Route::get('dashboard', function(){
 	return view ('dashboard.templates.index');
 });
