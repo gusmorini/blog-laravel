@@ -26,6 +26,10 @@
 
 //usando o artisan make:controller
 
+Route::get('dashboard', function(){
+	return view ('dashboard.templates.index');
+});
+
 Route::get('categoria', function(){
 	return view ('home.templates.categoria');
 });
@@ -44,9 +48,9 @@ Route::get('site', function(){
 
 Route::get('sobre','PagesController@sobre');
 
-Route::get('dashboard',function(){
-	return view('dashboard');
-});
+// Route::get('dashboard',function(){
+// 	return view('dashboard');
+// });
 
 Route::get('amigos', 'PagesController@amigos');
 
