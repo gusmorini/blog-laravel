@@ -279,3 +279,9 @@ img.user-comment-img{
     margin: 2px 0px;
     color: #363636;
 }
+
+.erro{
+    min-height: 700px;
+    text-align: center;
+    padding-top: 30px;
+}
