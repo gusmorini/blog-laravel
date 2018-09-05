@@ -19,6 +19,7 @@
 
 		<form class="form-login" method="get" action="dashboard">
 
+			<!-- simulando um login -->
 			<input type="hidden" name="logado" value="1">
 			
 			<input type="text" name="email" placeholder="E-mail">

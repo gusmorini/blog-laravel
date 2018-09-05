@@ -9,29 +9,22 @@ class PagesController extends Controller
     
     public function index()
     {
-        return view('welcome');
+        return view('home.templates.home');
     }
 
-    public function amigos()
+    public function empresa()
     {
-        $amigos = [
-            ['nome'=>'José', 'idade'=>22],
-            ['nome'=>'Maria', 'idade'=>18],
-            ['nome'=>'Dunha', 'idade'=>30],
-        ];
-        return $amigos;
+        return view ('home.templates.empresa');
     }
 
-    public function sobre()
+    public function categoria()
     {
-    	$eu = [
-    		'nome'=>'Gustavo Morini',
-    		'idade'=>31
-    	];
-
-    	//return $eu;
-    	return view ('sobre', compact('eu'));
+        return view ('home.templates.categoria');
     }
 
+    public function contato()
+    {
+       return view ('home.templates.contato'); 
+    }
 
 }

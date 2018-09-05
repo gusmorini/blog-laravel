@@ -33,32 +33,7 @@ Route::get('dashboard-forms', 'DashController@forms');
 Route::get('dashboard-recuperar', 'DashController@recuperar');
 Route::get('dashboard-resetar', 'DashController@resetar');
 
-Route::get('categoria', function(){
-	return view ('home.templates.categoria');
-});
-
-Route::get('empresa', function(){
-	return view ('home.templates.empresa');
-});
-
-Route::get('contato', function(){
-	return view ('home.templates.contato');
-});
-
-Route::get('site', function(){
-	return view('home.templates.home');
-});
-
-Route::get('sobre','PagesController@sobre');
-
-// Route::get('dashboard',function(){
-// 	return view('dashboard');
-// });
-
-Route::get('amigos', 'PagesController@amigos');
-
-Route::get('/', function(){
-	return view('home.templates.home');
-});
-
-//Route::get('/', 'PagesController@index');
+Route::get('/', 'PagesController@index');
+Route::get('categoria', 'PagesController@categoria');
+Route::get('empresa', 'PagesController@empresa');
+Route::get('contato', 'PagesController@contato');
