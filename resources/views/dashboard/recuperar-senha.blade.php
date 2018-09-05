@@ -17,13 +17,13 @@
 			<img src="imgs/logo-webdevalfa.png" alt="webdevalfa" class="img-login">
 		</div>
 
-		<form class="form-login">
+		<form class="form-login" method="post">
 			
 			<input type="text" name="email" placeholder="E-mail">
 
 			<button class="btn-login">Recuperar</button>
 
-			<a href="index.php" class="rel-pass">Login?</a>
+			<a href="dashboard" class="rel-pass">Login?</a>
 
 		</form>
 

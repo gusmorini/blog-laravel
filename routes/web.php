@@ -26,29 +26,12 @@
 
 //usando o artisan make:controller
 
-Route::get('forms', function(){
-	return view ('dashboard.forms');
-});
-
-Route::get('list', function(){
-	return view ('dashboard.list');
-});
-
-Route::get('home',function(){
-	return view ('dashboard.home');
-});
-
-Route::get('login', function(){
-	return view ('dashboard.login');
-});
-
-Route::get('recuperar-senha', function(){
-	return view ('dashboard.recuperar-senha');
-});
-
-Route::get('resetar-senha', function(){
-	return view ('dashboard.resetar-senha');
-});
+Route::get('dashboard', 'DashController@index');
+Route::get('dashboard-list', 'DashController@list');
+Route::get('dashboard-forms', 'DashController@forms');
+//Route::get('dashboard-login', 'DashController@login');
+Route::get('dashboard-recuperar', 'DashController@recuperar');
+Route::get('dashboard-resetar', 'DashController@resetar');
 
 Route::get('categoria', function(){
 	return view ('home.templates.categoria');

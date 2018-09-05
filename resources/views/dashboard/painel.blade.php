@@ -27,21 +27,21 @@
 	<div class="list-menu">
 		<ul class="menu-list">
 			<li>
-				<a href="home">
+				<a href="dashboard?logado=1">
 					<i class="fa fa-home" aria-hidden="true"></i>
 					Home
 				</a>
 			</li>
 
 			<li>
-				<a href="list">
+				<a href="dashboard-list">
 					<i class="fa fa-id-card" aria-hidden="true"></i>
 					Listagem
 				</a>
 			</li>
 
 			<li>
-				<a href="forms">
+				<a href="dashboard-forms">
 					<i class="fa fa-fort-awesome" aria-hidden="true"></i>
 					Forms
 				</a>
